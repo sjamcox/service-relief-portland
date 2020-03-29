@@ -5,14 +5,14 @@ module.exports = {
     {
       resolve: `gatsby-theme-service-relief`,
       options: {
-        authorName: `Smarter Labs`,
-        authorLink: `https://smarterlabs.com/`,
+        authorName: `Sam Cox`,
+        authorLink: `https://coxdesign.co/`,
       },
     },
     {
 		 resolve: `gatsby-plugin-google-analytics`,
       options: {
-			trackingId: process.env.GOOGLE_ANALYTICS_ID,
+			trackingId: `UA-132052018-2`,
       },
     },
   ],
