@@ -2,7 +2,7 @@
 name: BuildSiteOnSchedule
 on:
   schedule:
-    - cron: "0 */2 * * *" # every two hours
+    - cron: "0 */24 * * *" # runs at midnight
 jobs:
   curl:
     runs-on: ubuntu-latest
